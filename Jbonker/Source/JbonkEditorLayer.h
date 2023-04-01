@@ -82,7 +82,7 @@ namespace Jbonk
 			Simulate,
 			Stop
 		};
-
+//this is a useless change
 		SceneState m_SceneState = SceneState::Edit;
 	};
 }
