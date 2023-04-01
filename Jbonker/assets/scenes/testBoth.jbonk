@@ -1,0 +1,412 @@
+Scene: testBoth
+Entities:
+  - Entity: 13941900591178279797
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 915.799988
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 2009331153245245893
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-8.86966324, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 6795390770190865357
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-7.36966324, -6, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 14310294674271606195
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-1.36966324, -6.5, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 14960152979297930810
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [4.13033676, -4.5, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 7809189181779906021
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [6.13033676, 3.5, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 8556144788570973366
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [11.1303368, -5.5, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 1901733128333573170
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-4.86966324, 5.5, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 6665797989542886143
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-15.3696632, 1.5, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 5419597698171126369
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-13.3696632, -8.5, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 10709950400863979172
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-13.100378, -8.38221455, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 1296035150526665216
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [43.2821236, 0.91709733, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 915.799988
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 18328837947045803543
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [13.1303368, 14, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 1220989770207015966
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [22.0515976, 5.70619488, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 14680652974074972921
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [24.5515976, 14.2061949, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 10205591260908785035
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [15.0515976, 9.70619488, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 6235297699494045610
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [17.0515976, 12.2061949, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 16918130058861055980
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [29.5515976, 8.20619488, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 11272787380028873652
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [24.5515976, 20.2061958, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 9149853736291185165
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [9.5515976, 20.2061958, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 15870148232796511733
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [4.0515976, 9.20619488, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 371732019149705442
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [33.5515976, 12.2061949, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 5017572986948242053
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [31.5515976, 18.2061958, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 12338664037541104184
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [17.0515976, 18.2061958, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 5353799781812900105
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [17.9283829, 28.8577499, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    LinkPointsComponent:
+      Count: 1
+      LinkPoint0: [0, 0]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: true
+  - Entity: 16197664760834392306
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-0.693958044, 22.8996162, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 915.799988
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 1432995970145965815
+    TagComponent:
+      Tag: Bar
+    TransformComponent:
+      Translation: [21.1783829, 28.8577499, 0]
+      Rotation: [0, 0, 0]
+      Scale: [6.53999996, 0.540000021, 0.540000021]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [-3.25, 0]
+      LinkPoint1: [3.25, 0]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 455
+      Fixed: false
+  - Entity: 2806090878104769527
+    TagComponent:
+      Tag: Bar
+    TransformComponent:
+      Translation: [27.6783829, 28.8577499, 0]
+      Rotation: [0, 0, 0]
+      Scale: [6.53999996, 0.540000021, 0.540000021]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [-3.25, 0]
+      LinkPoint1: [3.25, 0]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 423
+      Fixed: false

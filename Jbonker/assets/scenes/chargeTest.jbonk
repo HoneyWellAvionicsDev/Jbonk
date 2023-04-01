@@ -1,0 +1,1464 @@
+Scene: chargeTest
+Entities:
+  - Entity: 13941900591178279797
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-48.1331787, -20.3904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 2009331153245245893
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [1.03269601, -10.1088324, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 6795390770190865357
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [1.120682, -4.41724253, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 14310294674271606195
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [4.05218554, -6.29272509, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 14960152979297930810
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [6.93962049, -13.8092527, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 8556144788570973366
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [8.28894043, -21.9798546, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 1901733128333573170
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [2.52151799, -14.4549255, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 6665797989542886143
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-2.28967094, -9.70794773, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 5419597698171126369
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-3.82582593, -0.988751829, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 10709950400863979172
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-3.55414414, -1.20174134, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 7717443894403725018
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [0.630506933, -12.5565014, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 12906826958940796092
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-4.6996479, -18.4839287, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 17184468593661322736
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-1.31656861, -16.1896248, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 10778923272044605327
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-13.1724539, -8.3480444, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 10161211519332956547
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-2.84397483, -10.7056255, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 4026956067309929678
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [0.405180246, -12.639677, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 611248471021997087
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-11.2492876, -8.86912155, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 8369889621523473058
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-10.6882677, -6.85266781, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 10075697404601961272
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-10.7549009, -22.4632683, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 6788578470710359269
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-6.61257648, -27.8853569, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 13809646410347757678
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-3.33470297, -14.4738436, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 12056673345449663276
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-8.67033482, -8.7376318, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 11426640309679406650
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-13.5541067, -5.50806999, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 8499228957352529734
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-13.8134594, -8.36921215, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 13264796899460051218
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-12.8204746, -10.5198984, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 11548972006539972100
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-10.0733509, -6.37753439, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 16779817220317543451
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-18.0877838, -8.05299091, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 4509175220326895140
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-23.5313263, -3.96589947, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 1509358010636617231
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-4.85310793, -12.3016701, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 1616885872244471105
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-6.31413269, -17.1287956, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 14617278157861122544
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-7.21513796, -19.9197426, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 1230869533583313958
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-5.5142827, -16.1800308, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 16615065627348976358
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-2.88570666, -11.6875334, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 6980010874517849041
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-8.09178543, -16.6548672, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 11200898403129780022
+    TagComponent:
+      Tag: small mass
+    TransformComponent:
+      Translation: [-5.73586941, -14.8234596, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 1132925642434955767
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-39.6331787, -20.8904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: true
+  - Entity: 13419933555091845120
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-23.6331787, -20.3904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: true
+  - Entity: 12978709311931686419
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-33.6331787, -21.8904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 9404120467461869961
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-8.63317871, -20.8904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: true
+  - Entity: 10948364947181530525
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [8.86682129, -21.8904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 12823899481285688752
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [24.8668213, -20.8904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 12360865769811655724
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [26.8668213, -9.89042282, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 2380002667994266241
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [24.8668213, 1.10957718, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 17089802889409291282
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [24.8668213, 12.6095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: true
+  - Entity: 8660985252451229501
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [24.3668213, 21.6095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: true
+  - Entity: 3710942679996323912
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [23.3668213, 30.6095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: true
+  - Entity: 2954035872733637015
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [10.8668213, 31.6095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: true
+  - Entity: 7238502572060437352
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-5.13317871, 30.6095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 13886906050189523711
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-28.4679565, -30.3195724, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 12013147224317071007
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-16.1331787, 30.6095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 13176248403703926858
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-24.1331787, 29.6095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 12010771915814336574
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-32.6331787, 29.6095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 16911050870918762852
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-41.6331787, 29.6095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: true
+  - Entity: 18410900903978312575
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-48.6331787, 29.1095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: true
+  - Entity: 18131474856613075705
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-48.1331787, 25.1095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: true
+  - Entity: 10149456011810247612
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-48.6331787, 17.1095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 6776422479660511435
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-49.6331787, 7.60957718, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 11669632923521453456
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-48.6331787, 0.109577179, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 16632230127886951977
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-50.1331787, -8.39042282, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 6232891888856596976
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-48.1331787, -14.3904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 8581165747170536915
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-41.6190262, -15.510643, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: true
+  - Entity: 5648362260934825866
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [2.36682129, 28.1095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: true
+  - Entity: 8770147389196559241
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [0.366821289, 37.6095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 10551859970100777141
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-14.1331787, 39.1095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 10931022200304672137
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [16.8668213, 39.1095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 15296103646764921864
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [36.8668213, 24.6095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 16658593197369526556
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [37.8668213, 10.6095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 1370764084421556846
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [7.86682129, -46.8904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 13534530327231696899
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-21.1331787, -45.3904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 8432577644080447398
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [43.8668213, -40.3904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: true
+  - Entity: 1151634274076090482
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [17.3668213, -39.8904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 11965094078579488582
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [25.8668213, -28.3904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 18370582585478843803
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [48.8668213, -16.3904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 6776202533014354457
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-44.1331787, -39.8904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 17319882306143005933
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-59.6331787, -31.8904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 1286305283640705255
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-68.6331787, -23.3904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 27418802009338615
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-65.6331787, 8.10957718, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 11985267041226814022
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-68.6331787, 33.1095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 3123214055978018358
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-59.1331787, 50.1095772, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 12814335497902619636
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [43.8668213, -61.8904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 12463480487056919843
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [29.8668213, -45.3904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: true
+  - Entity: 8067803694630907806
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [35.3668213, -24.3904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 9406999898861111499
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [56.8668213, -25.8904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 13194570007931338901
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [59.3668213, -48.8904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: false
+  - Entity: 3976950140070697328
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [59.3668213, -52.3904228, 0]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 612.000977
+      Fixed: true
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: true
+  - Entity: 18209667141466195027
+    TagComponent:
+      Tag: Big mass
+    TransformComponent:
+      Translation: [-158.853088, 10.1369171, -3.05178291e-05]
+      Rotation: [0, 0, 0]
+      Scale: [4.28999996, 4.28999996, 4.28999996]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test2
+      ReplusiveForce: true

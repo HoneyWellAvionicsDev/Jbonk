@@ -1,0 +1,687 @@
+Scene: KDradiusTest
+Entities:
+  - Entity: 13246523190846874984
+    TagComponent:
+      Tag: Other Aircraft
+    TransformComponent:
+      Translation: [3.25745058, 14.9668417, -1.1954906]
+      Rotation: [0, -1.01086855, 0]
+      Scale: [13.9749899, 7.88739967, 7.88738823]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\Microsoft Flight Simulator - 1.26.5.0 7_6_2022 7_19_14 PM.png
+  - Entity: 15406324220925900699
+    TagComponent:
+      Tag: Aircraft
+    TransformComponent:
+      Translation: [-39.7777328, -25.4496994, -3.52088928]
+      Rotation: [-3.14159083, 1.55658162, -3.14159083]
+      Scale: [58.9672394, 33.5134811, 33.5134773]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\Microsoft Flight Simulator - 1.26.5.0 7_19_2022 4_39_36 AM.png
+  - Entity: 17670193535659798738
+    TagComponent:
+      Tag: TestSquare
+    TransformComponent:
+      Translation: [-15.947794, -7.10026884, -0.299787939]
+      Rotation: [0, 0.0122452909, 0.650414288]
+      Scale: [3.7878654, 1.07000005, 1.03569448]
+    SpriteRendererComponent:
+      Color: [0.665480435, 0.0142095322, 0.0142095322, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\purple-square-9.png
+    RigidBody2DComponent:
+      BodyType: Static
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0
+      RestitutionThreshold: 0.5
+  - Entity: 11686327892508495118
+    TagComponent:
+      Tag: Bitches
+    TransformComponent:
+      Translation: [-4.51408386, -48.2461357, -22.3477974]
+      Rotation: [-1.11749184, 0, 0]
+      Scale: [186.457535, 4.31999969, 8.63880062]
+    SpriteRendererComponent:
+      Color: [0.510424972, 0.47582987, 0.718861222, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\Annotation 2020-04-29 042126.png
+    RigidBody2DComponent:
+      BodyType: Static
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0
+      RestitutionThreshold: 0.5
+  - Entity: 14444873034334694675
+    TagComponent:
+      Tag: Camera Entity
+    TransformComponent:
+      Translation: [-2.28999996, 0.0664474964, 17.9785709]
+      Rotation: [0.0174532924, 0, 0]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Camera:
+        ProjectionType: 1
+        PerspectiveFOV: 45
+        PerspectiveNear: 0.00999999978
+        PerspectiveFar: 10000
+        OrthographicSize: 22
+        OrthographicNear: -40
+        OrthographicFar: 169
+      Primary: true
+      FixedAspectRatio: false
+  - Entity: 14354916948235457031
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [-79.4471436, -1266.04736, 0.222875953]
+      Rotation: [0.0673415288, 0.000687409251, -131.108673]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 16733729693549988418
+    TagComponent:
+      Tag: Background
+    TransformComponent:
+      Translation: [14.3853836, 3.16709518, -1133.5]
+      Rotation: [0, 0, 0]
+      Scale: [4871.57959, 4871.57959, 4853.34619]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\Space.png
+  - Entity: 13913922166750517793
+    TagComponent:
+      Tag: Floor
+    TransformComponent:
+      Translation: [-0.135828614, -31.8118649, -11.2756958]
+      Rotation: [-0.241033211, -1.47657895, -1.32708597]
+      Scale: [64.3117828, 87.8371964, 64.3109512]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\purple-square-9.png
+  - Entity: 11575991985271941214
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [-7.27359581, 0.933629334, 0.0980382338]
+      Rotation: [0.0673415288, 0.000687418215, -1.8098949e-09]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [0.793594301, 0.0706044808, 0.0706044808, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0
+      RestitutionThreshold: 0.5
+  - Entity: 9776447831011018163
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [-5.7726717, 1.62603231e-09, 0.115800709]
+      Rotation: [0.0673415288, 0.000687418215, -7.2031997e-10]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [0.637010694, 0.0929446146, 0.0929446146, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 10039365680172190011
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [4.90582371, -3.06525803, -0.0994765162]
+      Rotation: [0.0673415288, 0.000687418215, -2.17187379e-09]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [0.512455523, 0.0583579354, 0.0583579354, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 12960985122562448322
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [-1.15954518, 1.42501974, -0.179965004]
+      Rotation: [0.0586430579, 0.0567231998, 0.0261799395]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [0.597864747, 0.0212763269, 0.132079944, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 13819978500209489603
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [0, 1.56544416e-10, -1.60000002]
+      Rotation: [0.0673416331, 0.000687424093, -1.93176719e-09]
+      Scale: [16.4359493, 16.4359493, 16.4359493]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+  - Entity: 10238990714028384176
+    TagComponent:
+      Tag: Fixy Boi
+    TransformComponent:
+      Translation: [-21.3192959, 58.5490761, 1.70000005]
+      Rotation: [0, 0, 0]
+      Scale: [4.51000023, 4.51000023, 4.51000023]
+    LinkPointsComponent:
+      Count: 1
+      LinkPoint0: [0, 0]
+    CircleRendererComponent:
+      Color: [0.725978613, 0.206684321, 0.206684321, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: true
+  - Entity: 5297384271848824557
+    TagComponent:
+      Tag: Long boi 1
+    TransformComponent:
+      Translation: [-3.31929588, 58.5490761, 0]
+      Rotation: [0, 0, 0]
+      Scale: [35.9900017, 2.32999992, 2.32999992]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [-18, 0]
+      LinkPoint1: [18, 0]
+    SpriteRendererComponent:
+      Color: [0.0950574428, 0.0437431224, 0.55871886, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 1872339921844532343
+    TagComponent:
+      Tag: Long boi 2
+    TransformComponent:
+      Translation: [32.6807022, 58.5490761, 0]
+      Rotation: [0, 0, 0]
+      Scale: [35.9900017, 2.32999992, 2.32999992]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [-18, 0]
+      LinkPoint1: [18, 0]
+    SpriteRendererComponent:
+      Color: [0.0950574428, 0.0437431224, 0.55871886, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 10176308787789221940
+    TagComponent:
+      Tag: Gravy time boi
+    TransformComponent:
+      Translation: [-48.4000015, 68.3000031, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ForceGeneratorComponent:
+      GeneratorType: Gravity
+      LocalGravity: [0, -9.81000042]
+      ReplusiveForce: false
+  - Entity: 14690547557776545084
+    TagComponent:
+      Tag: Long boi 2
+    TransformComponent:
+      Translation: [-111.319298, 58.5490761, 0]
+      Rotation: [0, 0, 0]
+      Scale: [179.990005, 2.32999992, 2.32999992]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [-90, 0]
+      LinkPoint1: [90, 0]
+    SpriteRendererComponent:
+      Color: [0.55871886, 0.483580023, 0.0437431224, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 2616743183767254176
+    TagComponent:
+      Tag: Long boi 1
+    TransformComponent:
+      Translation: [-7.68255997, 70.2980957, 0.28606075]
+      Rotation: [-0.0223989245, 0.0261701252, 0.711173475]
+      Scale: [35.9899902, 2.32999969, 2.32999969]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [-18, 0]
+      LinkPoint1: [18, 0]
+    SpriteRendererComponent:
+      Color: [0.0437431224, 0.465253502, 0.55871886, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 5154152766761199550
+    TagComponent:
+      Tag: Long boi 1
+    TransformComponent:
+      Translation: [19.5909119, 93.7961273, -0.661426127]
+      Rotation: [-0.0223989245, 0.0261701252, 0.711173475]
+      Scale: [35.9899902, 2.32999969, 2.32999969]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [-18, 0]
+      LinkPoint1: [18, 0]
+    SpriteRendererComponent:
+      Color: [0.0437431224, 0.465253502, 0.55871886, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 7479187387350568834
+    TagComponent:
+      Tag: Long boi 1
+    TransformComponent:
+      Translation: [60.7106209, 97.0088348, -0.986635804]
+      Rotation: [-0.0223989245, 0.0261701252, 0.711173475]
+      Scale: [35.9899902, 2.32999969, 2.32999969]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [-18, 0]
+      LinkPoint1: [18, 0]
+    SpriteRendererComponent:
+      Color: [0.0437431224, 0.465253502, 0.55871886, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 10980884617468069392
+    TagComponent:
+      Tag: Fixy Boi
+    TransformComponent:
+      Translation: [49.9027061, 102.200935, 1.70000017]
+      Rotation: [0, 0, 0]
+      Scale: [4.51000023, 4.51000023, 4.51000023]
+    LinkPointsComponent:
+      Count: 1
+      LinkPoint0: [0, 0]
+    CircleRendererComponent:
+      Color: [0.725978613, 0.206684321, 0.206684321, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: true
+  - Entity: 9862612761972266569
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [-1.93521595, -1.5467701, -0.305017114]
+      Rotation: [0.0586430579, 0.0567231998, 0.0261799395]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [0.733096123, 0.0208710562, 0.0208710562, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 17263886155094262115
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [-2.4798615, 0.436214209, -0.159640357]
+      Rotation: [0.0586430579, 0.0567231998, 0.0261799395]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [0.658362985, 0.00937173143, 0.00937173143, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 6066516653122126349
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [-4.38471889, -3.6081593, -0.280315518]
+      Rotation: [0.0586430579, 0.0567231998, 0.0261799395]
+      Scale: [1, 1.00000012, 0.661121428]
+    SpriteRendererComponent:
+      Color: [0.590747356, 0.0336368494, 0.0336368494, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 6998130634494080424
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [-8.86580753, -3.49603271, -0.0126237795]
+      Rotation: [0.058643043, 0.0567231998, 0.0261799414]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [0.66903913, 0.0404756889, 0.0404756889, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 4428436338690758517
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [5.90623856, 5.91434288, 0.505451679]
+      Rotation: [0.0673415288, 0.000687418215, -2.29556507e-09]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 9033042698584877379
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [0.406217575, 5.41547632, 0.475587159]
+      Rotation: [0.0673415288, 0.000687418215, -2.45563658e-09]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 7351065396940589228
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [11.9058447, -2.56639099, -0.0706431568]
+      Rotation: [0.0673415288, 0.000687418273, -2.57023269e-09]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 12150271439103224012
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [8.4056139, -7.55505848, -0.404690325]
+      Rotation: [0.0673415288, 0.000687418215, -2.68482903e-09]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 16591382088676216571
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [0.405639172, -7.05619144, -0.36554569]
+      Rotation: [0.0673415288, 0.000687418215, -2.93221158e-09]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 4561002685790476350
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [-5.95970678, -6.36343431, -0.314449936]
+      Rotation: [0.0673415288, 0.000687418215, -3.01952308e-09]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 9899305172583917306
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [-9.04279232, -5.43224239, -0.249524832]
+      Rotation: [0.0673415288, 0.000687418215, -3.27418181e-09]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 3919616785759724077
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [-12.09408, -1.06979096, 0.0467908233]
+      Rotation: [0.0673415288, 0.000687418215, -3.2378018e-09]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 15518603133112902434
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [-9.09408188, -1.06979096, 0.0447285622]
+      Rotation: [0.0673415288, 0.000687418215, -3.42515794e-09]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 18000676168032620278
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [-12.594265, -5.06072474, -0.222027987]
+      Rotation: [0.0673415288, 0.000687418215, -3.87626731e-09]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5
+  - Entity: 9852944066432507851
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [-13.1691561, -3.09568024, -0.0891023278]
+      Rotation: [0.0673415288, 0.000687418215, -3.97813071e-09]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+      TexturePath: assets\textures\HYPERS2.png
+    RigidBody2DComponent:
+      BodyType: Dynamic
+      FixedRotation: false
+    BoxCollider2DComponent:
+      Offset: [0, 0]
+      Size: [0.5, 0.5]
+      Density: 1
+      Friction: 0.5
+      Restitution: 0.670000017
+      RestitutionThreshold: 0.5

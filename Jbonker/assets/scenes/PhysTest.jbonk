@@ -1,0 +1,79 @@
+Scene: PhysTest
+Entities:
+  - Entity: 15919350632137829342
+    TagComponent:
+      Tag: 1
+    TransformComponent:
+      Translation: [3, 4, 0]
+      Rotation: [0, 0, 0.785398185]
+      Scale: [8.5, 0.5, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 16072909877684554899
+    TagComponent:
+      Tag: 2
+    TransformComponent:
+      Translation: [5.67000008, 4, 0]
+      Rotation: [0, 0, 4.60330582]
+      Scale: [6.03000021, 0.5, 1]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 2230402837276775195
+    TagComponent:
+      Tag: 3
+    TransformComponent:
+      Translation: [0, 1, 0]
+      Rotation: [0, 0, 0]
+      Scale: [0.25, 0.25, 0.25]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+  - Entity: 3766237583235744457
+    TagComponent:
+      Tag: 4
+    TransformComponent:
+      Translation: [10.6999998, 1, 0]
+      Rotation: [0, 0, 6.28318548]
+      Scale: [10.6999998, 0.5, 1]
+    LinkPointsComponent:
+      Count: 1
+      LinkPoint0: [-3, 0]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 17559679497164778104
+    TagComponent:
+      Tag: Gravity
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ForceGeneratorComponent:
+      GeneratorType: Gravity
+      LocalGravity: [0, -0.209999993]
+      ReplusiveForce: false
+  - Entity: 8777889165049604949
+    TagComponent:
+      Tag: 5
+    TransformComponent:
+      Translation: [3, 4, -0.100000001]
+      Rotation: [0, 0, 0.785398185]
+      Scale: [8.5, 0.5, 1]
+    SpriteRendererComponent:
+      Color: [0.324833542, 0.782918155, 0.04736517, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false

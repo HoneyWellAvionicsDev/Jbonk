@@ -1,0 +1,81 @@
+Scene: TriplePendulum
+Entities:
+  - Entity: 15919350632137829342
+    TagComponent:
+      Tag: 1
+    TransformComponent:
+      Translation: [0.00211777166, 3.65999937, 0]
+      Rotation: [0, 0, 1.57000017]
+      Scale: [5.32999992, 0.5, 1]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [2.66000009, 0]
+      LinkPoint1: [-2.66000009, 0]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 16072909877684554899
+    TagComponent:
+      Tag: 2
+    TransformComponent:
+      Translation: [2.61860514, 5.82941484, 0]
+      Rotation: [0, 0, 6.09769344]
+      Scale: [5.32999992, 0.5, 1]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [2.66000009, 0]
+      LinkPoint1: [-2.66000009, 0]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 2230402837276775195
+    TagComponent:
+      Tag: 3
+    TransformComponent:
+      Translation: [0, 1, 0.300000012]
+      Rotation: [0, 0, 0]
+      Scale: [1.66250002, 1.66250002, 1.66250002]
+    LinkPointsComponent:
+      Count: 1
+      LinkPoint0: [0, 0]
+    CircleRendererComponent:
+      Color: [0.9857651, 0.9857651, 0.9857651, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: true
+  - Entity: 3766237583235744457
+    TagComponent:
+      Tag: 4
+    TransformComponent:
+      Translation: [7.89297438, 5.33883095, 0]
+      Rotation: [0, 0, 0]
+      Scale: [5.32999992, 0.5, 1]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [-2.66000009, 0]
+      LinkPoint1: [2.66000009, 0]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 17559679497164778104
+    TagComponent:
+      Tag: Gravity
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ForceGeneratorComponent:
+      GeneratorType: Gravity
+      LocalGravity: [0, -9.81000042]
+      ReplusiveForce: false

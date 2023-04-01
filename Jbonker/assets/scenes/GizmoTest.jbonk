@@ -1,0 +1,58 @@
+Scene: GizmoTest
+Entities:
+  - Entity: 5331703730758286774
+    TagComponent:
+      Tag: TestSquare
+    TransformComponent:
+      Translation: [-1.64310622, -0.343134463, -0.489299476]
+      Rotation: [-1.43238139, 0.0122445617, 0.650414288]
+      Scale: [1, 1.00000095, 1.00006819]
+    SpriteRendererComponent:
+      Color: [0.0319778137, 0.359430611, 0.0319778137, 1]
+      TileFactor: 1
+  - Entity: 15791525915990081826
+    TagComponent:
+      Tag: Bitches
+    TransformComponent:
+      Translation: [-4.18935108, -0.444034368, -0.356872261]
+      Rotation: [-0.0174532924, 0, 0]
+      Scale: [1, 1, 1]
+    SpriteRendererComponent:
+      Color: [0.510424972, 0.47582987, 0.718861222, 1]
+      TileFactor: 1
+  - Entity: 2892433139652840186
+    TagComponent:
+      Tag: Camera Entity
+    TransformComponent:
+      Translation: [-3.15869713, 0.989582956, 0.0260278173]
+      Rotation: [0.0174532924, 0, 0]
+      Scale: [1, 1, 1]
+    CameraComponent:
+      Camera:
+        ProjectionType: 1
+        PerspectiveFOV: 45
+        PerspectiveNear: 0.00999999978
+        PerspectiveFar: 10000
+        OrthographicSize: 10
+        OrthographicNear: -40
+        OrthographicFar: 1
+      Primary: true
+      FixedAspectRatio: false
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 0.200000003
+      Fade: 0.00499999989
+    NativeScriptComponent:
+      NativeScriptClass: CameraController
+  - Entity: 4262798367091935135
+    TagComponent:
+      Tag: Rotate
+    TransformComponent:
+      Translation: [-1.89883351, -0.00153460295, 0.0285787284]
+      Rotation: [0.0673415288, 0.000687409251, 0.639712334]
+      Scale: [1, 1.00000012, 1]
+    SpriteRendererComponent:
+      Color: [0.683274031, 0.17021063, 0.17021063, 1]
+      TileFactor: 1
+    NativeScriptComponent:
+      NativeScriptClass: Test

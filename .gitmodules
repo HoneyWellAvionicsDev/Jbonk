@@ -1,0 +1,18 @@
+[submodule "Jbonk/vendors/spdlog"]
+	path = Jbonk/vendors/spdlog
+	url = https://github.com/gabime/spdlog
+[submodule "Jbonk/vendors/glfw"]
+	path = Jbonk/vendors/glfw
+	url = https://github.com/TheCherno/glfw.git
+[submodule "Jbonk/vendors/imGui"]
+	path = Jbonk/vendors/imGui
+	url = https://github.com/ocornut/imgui.git
+[submodule "Jbonk/vendors/glm"]
+	path = Jbonk/vendors/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "Jbonk/vendors/ImGuizmo"]
+	path = Jbonk/vendors/ImGuizmo
+	url = https://github.com/TheCherno/ImGuizmo.git
+[submodule "Jbonk/vendors/Box2D"]
+	path = Jbonk/vendors/Box2D
+	url = https://github.com/TheCherno/box2d.git

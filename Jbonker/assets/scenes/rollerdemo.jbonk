@@ -1,0 +1,306 @@
+Scene: rollerdemo
+Entities:
+  - Entity: 15919350632137829342
+    TagComponent:
+      Tag: 1
+    TransformComponent:
+      Translation: [-1.54696298, 0.096524477, 0]
+      Rotation: [0, 0, 0.785398245]
+      Scale: [8.5, 0.5, 1]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [-4.25, 0]
+      LinkPoint1: [4.25, 0]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 16072909877684554899
+    TagComponent:
+      Tag: 2
+    TransformComponent:
+      Translation: [25.4724407, 5.53664112, 0]
+      Rotation: [0, 0, -1.18572462]
+      Scale: [6.02999926, 0.49999994, 1]
+    LinkPointsComponent:
+      Count: 3
+      LinkPoint0: [3, 0]
+      LinkPoint1: [0, 0]
+      LinkPoint2: [-1.60000002, 0]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 2230402837276775195
+    TagComponent:
+      Tag: 3
+    TransformComponent:
+      Translation: [-4.55216646, -2.90867949, 0]
+      Rotation: [0, 0, 0]
+      Scale: [3.6500001, 3.6500001, 3.6500001]
+    LinkPointsComponent:
+      Count: 1
+      LinkPoint0: [0, 0]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: true
+  - Entity: 3766237583235744457
+    TagComponent:
+      Tag: 4
+    TransformComponent:
+      Translation: [-5.22499561, -7.09870291, 0]
+      Rotation: [0, 0, 0]
+      Scale: [10.6999998, 0.5, 1]
+    LinkPointsComponent:
+      Count: 3
+      LinkPoint0: [-3, 0]
+      LinkPoint1: [-5.3499999, 0]
+      LinkPoint2: [5.3499999, 0]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 17559679497164778104
+    TagComponent:
+      Tag: Gravity
+    TransformComponent:
+      Translation: [0, 0, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    ForceGeneratorComponent:
+      GeneratorType: Gravity
+      LocalGravity: [0, -9.81000042]
+      ReplusiveForce: false
+  - Entity: 8777889165049604949
+    TagComponent:
+      Tag: 5
+    TransformComponent:
+      Translation: [-18.5538292, -15.389492, -0.100000001]
+      Rotation: [0, 0, 0.785398245]
+      Scale: [8.5, 0.5, 1]
+    SpriteRendererComponent:
+      Color: [0.324833542, 0.782918155, 0.04736517, 1]
+      TileFactor: 1
+  - Entity: 9304673390613496804
+    TagComponent:
+      Tag: 4
+    TransformComponent:
+      Translation: [17.1359673, 3.63031816, 0]
+      Rotation: [0, 0, -0.0944223106]
+      Scale: [10.0000019, 0.499997228, 1]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [5, 0]
+      LinkPoint1: [-5, 0]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1.00100005
+      Fixed: false
+  - Entity: 7113960336125019134
+    TagComponent:
+      Tag: Fix Point
+    TransformComponent:
+      Translation: [16.1141281, 1.15261602, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    LinkPointsComponent:
+      Count: 1
+      LinkPoint0: [0, 0]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: true
+  - Entity: 12872557515181548242
+    TagComponent:
+      Tag: 2
+    TransformComponent:
+      Translation: [12.1582394, 3.60172844, -0.100000001]
+      Rotation: [0, 0, 1.57079637]
+      Scale: [0.999990106, 0.499995142, 1]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [0.5, 0]
+      LinkPoint1: [-0.5, 0]
+    SpriteRendererComponent:
+      Color: [0.0747330785, 0.0747330785, 0.0747330785, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ForceGeneratorComponent:
+      GeneratorType: Test1
+      ReplusiveForce: false
+      SpringConstant: 586.01001
+      SpringDamp: 1.82000005
+      SpringRestLength: 3.22000003
+  - Entity: 2690871708362119927
+    TagComponent:
+      Tag: 8
+    TransformComponent:
+      Translation: [10.2214689, 1.6674974, -9.53675567e-07]
+      Rotation: [0, 0, 0.63741076]
+      Scale: [4.95999908, 0.499999911, 1]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [2.41000009, 0]
+      LinkPoint1: [-2, 0]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 13931590975240657591
+    TagComponent:
+      Tag: 8
+    TransformComponent:
+      Translation: [-2.45975161, 2.2959137, 0]
+      Rotation: [0, 0, 0.202841833]
+      Scale: [8.06000042, 0.5, 1]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [4, 0]
+      LinkPoint1: [-4, 0]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 7138813900277879653
+    TagComponent:
+      Tag: Fix Point
+    TransformComponent:
+      Translation: [22.1582413, 3.10172844, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    LinkPointsComponent:
+      Count: 1
+      LinkPoint0: [0, 0]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: true
+  - Entity: 1635711152299481967
+    TagComponent:
+      Tag: 8
+    TransformComponent:
+      Translation: [13.9522934, 2.21777725, -9.53675908e-07]
+      Rotation: [0, 0, -0.457799852]
+      Scale: [4.95999908, 0.499999911, 1]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [2.41000009, 0]
+      LinkPoint1: [-2, 0]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 2090721392848223147
+    TagComponent:
+      Tag: Fix Point
+    TransformComponent:
+      Translation: [8.6141901, 0.477264166, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    LinkPointsComponent:
+      Count: 1
+      LinkPoint0: [0, 0]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: true
+  - Entity: 5657529685402484111
+    TagComponent:
+      Tag: Fix Point
+    TransformComponent:
+      Translation: [12.1582394, 3.10172844, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    LinkPointsComponent:
+      Count: 1
+      LinkPoint0: [0, 0]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 9535783120714966079
+    TagComponent:
+      Tag: Fix Point
+    TransformComponent:
+      Translation: [25.4724407, 5.53664112, 0]
+      Rotation: [0, 0, 0]
+      Scale: [1, 1, 1]
+    LinkPointsComponent:
+      Count: 1
+      LinkPoint0: [0, 0]
+    CircleRendererComponent:
+      Color: [1, 1, 1, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: true
+  - Entity: 2459540922706335635
+    TagComponent:
+      Tag: 8
+    TransformComponent:
+      Translation: [20.9534473, 6.21366072, -4.76837073e-07]
+      Rotation: [0, 0, 0.202841833]
+      Scale: [8.06000042, 0.5, 1]
+    LinkPointsComponent:
+      Count: 2
+      LinkPoint0: [4, 0]
+      LinkPoint1: [-4, 0]
+    SpriteRendererComponent:
+      Color: [1, 1, 1, 1]
+      TileFactor: 1
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+  - Entity: 15660925186931433701
+    TagComponent:
+      Tag: 3
+    TransformComponent:
+      Translation: [17.0354557, 5.40784597, 0.200000003]
+      Rotation: [0, 0, 0]
+      Scale: [3.0046804, 3.0046804, 3.0046804]
+    LinkPointsComponent:
+      Count: 1
+      LinkPoint0: [0, 0]
+    CircleRendererComponent:
+      Color: [0.436623156, 0.903914571, 0.0675523207, 1]
+      Thickness: 1
+      Fade: 0.00499999989
+    RigidBodyComponent:
+      Density: 1
+      Fixed: false
+    ConstraintComponent:
+      ConstraintType: Rolling
+      TargetID: 9304673390613496804
